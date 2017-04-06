@@ -22,6 +22,8 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 Our url is {{ site.url }}
 
+page.url | absolute_url = {{ page.url | absolute_url }}
+
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
