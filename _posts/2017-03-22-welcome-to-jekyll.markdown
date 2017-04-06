@@ -24,7 +24,7 @@ Our url is {{ site.url }}
 
 page.url = {{ page.url }}
 
-page.url | absolute_url = {{ page.url | absolute_url }}
+page.url = {{ page.url | absolute_url }}
 
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
